@@ -59,3 +59,4 @@ curl.exe -F "file1=@$tempFile" $webhookUrl
 
 # Limpieza final
 Remove-Item $tempFile -Force
+exit
