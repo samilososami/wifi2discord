@@ -61,4 +61,4 @@ curl.exe -F "file1=@$tempFile" $webhookUrl
 Remove-Item $tempFile -Force
 
 # Cerrar PowerShell
-Stop-Process -Id $PID
+exit
